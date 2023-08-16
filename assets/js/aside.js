@@ -5,13 +5,13 @@ let overlay = document.querySelector(".overlay")
 
 button.addEventListener("click",function(){
      sidebar.classList.add("show");
-     overlay.classList.add("show2")
+     overlay.classList.add("show2");
 })
 button2.addEventListener("click",function(){
     sidebar.classList.remove("show");
-    overlay.classList.remove("show2")
+    overlay.classList.remove("show2");
 })
 overlay.addEventListener("click",function(){
     sidebar.classList.remove("show");
-    overlay.classList.remove("show2")
+    overlay.classList.remove("show2");
 })
